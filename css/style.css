@@ -306,6 +306,9 @@ body {
 .whatwedo-item:not(:last-child){
     margin-right: 30px;
 }
+.whatwedo-item{
+    position: relative;
+}
 
 
 .what-we-do{
@@ -316,6 +319,35 @@ body {
 
     
     margin-bottom: 50px;
+}
+
+.desctop-text{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: var(--background-whitetext-color);
+}
+
+.overlay-disctop::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
 }
 
 
