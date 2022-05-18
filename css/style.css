@@ -139,9 +139,12 @@ body {
     margin-bottom: 32px;
 
     color: var(--headers-color);
-
-
+    
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .current{
     color: var(--accent-color);
 }
@@ -156,6 +159,10 @@ body {
     margin-top: 32px;
     margin-bottom: 32px;
     color: inherit;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-contact:hover,
 .link-contact:focus {
@@ -250,6 +257,10 @@ content: "";
     
     text-align: center;
     letter-spacing: 0.06em;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     
 }
@@ -477,6 +488,10 @@ content: "";
     width: 20px;
     height: 20px;
     fill: var(--social-icons0color);
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icons-circle:hover .social-icons-svg,
 .social-icons-circle:focus .social-icons-svg{
@@ -489,6 +504,10 @@ content: "";
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .social-icons-circle:hover,
@@ -524,9 +543,17 @@ content: "";
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-company{
     fill: var(--social-icons0color);
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-box:hover .client-company,
 .client-box:focus .client-company,
@@ -537,6 +564,7 @@ content: "";
 .client-box:hover,
 .client-box:focus {
     border: 1px solid var(--accent-color);
+
 }
 
 /* секция футера */
@@ -558,12 +586,20 @@ content: "";
 
 .adress-text{
     color: var(--background-whitetext-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-list {
     font-style: normal;
 }
-.link-footer{
-    color: var(--footer-contact-color)
+.link-footer {
+    color: var(--footer-contact-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-text:hover,
 .adress-text:focus {
@@ -601,6 +637,10 @@ content: "";
     margin-bottom: 20px;
     
     color: var(--background-whitetext-color);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .join-list{
     display: flex;
@@ -616,6 +656,10 @@ content: "";
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .join-svg{
     width: 20px;
@@ -656,6 +700,10 @@ content: "";
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+
+    transition-property: background-color,color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button:hover,
 .portfolio-button:focus{
@@ -687,6 +735,10 @@ content: "";
 
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-photo:hover,
@@ -723,6 +775,10 @@ content: "";
     margin: 24px;
 
     color: var(--background-whitetext-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio .link:hover .overlay-box,
 .portfolio .link:focus .overlay-box {
