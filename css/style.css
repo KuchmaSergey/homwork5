@@ -767,6 +767,10 @@ content: "";
     align-items: center;
     transform: translate(100%);
     background: rgba(33, 150, 243, 0.9);
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .over-text{
     font-weight: 400;
@@ -785,6 +789,9 @@ content: "";
     transform: translatey(0);
 }
 
+.overlay-box:hover .over-text{
+    transform: translateY(0);
+}
 .names-galery{
     
     font-weight: 700;
