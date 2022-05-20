@@ -329,6 +329,9 @@ content: "";
     border: hidden;
 }
 
+
+
+
             /* стили плюсов компании */
 
 .stronges-cotainer{
@@ -712,7 +715,7 @@ content: "";
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
-    
+
     color: rgba(255, 255, 255, 0.6);
 }
 .subscribe-text{
